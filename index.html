@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vladyslav Hushpet | Junior QA Engineer (GameDev)</title>
+    <meta
+      name="description"
+      content="Resume of Vladyslav Hushpet, a Junior QA Engineer passionate about GameDev, testing, and game localization."
+    />
+
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta
+      property="og:title"
+      content="Vladyslav Hushpet | Junior QA Engineer"
+    />
+    <meta
+      property="og:description"
+      content="Portfolio & Resume of a QA Engineer passionate about GameDev, Unreal Engine, and modding."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://vladyslav-hushpet-cv.netlify.app/"
+    />
+    <!-- Update with actual URL if known -->
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1200&auto=format&fit=crop"
+    />
+    <!-- Placeholder for a nice gamedev bg -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="dark-theme">
+    <nav id="navbar">
+      <div class="container">
+        <ul class="nav-links">
+          <li><a href="#about">Про мене</a></li>
+          <li><a href="#experience">Досвід</a></li>
+          <li><a href="#projects">Проєкти</a></li>
+          <li><a href="#skills">Навички</a></li>
+          <li><a href="#education">Освіта</a></li>
+          <li>
+            <button
+              id="theme-toggle"
+              class="theme-btn"
+              aria-label="Toggle Dark/Light Theme"
+            >
+              <i class="fas fa-moon"></i>
+            </button>
+          </li>
+        </ul>
+        <div
+          class="menu-toggle"
+          id="mobile-menu"
+          aria-label="Toggle Mobile Menu"
+          role="button"
+          tabindex="0"
+        >
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <main class="cv-container container">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <section id="hero" class="hero-section">
+          <div class="profile-info">
+            <h1>Владислав <span>Гушпет</span></h1>
+            <h3>Junior QA Engineer <span>(GameDev)</span></h3>
+          </div>
+
+          <div class="contact-info-list">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <a href="#" class="copy-email" title="Натисніть, щоб скопіювати"
+                >vladgushpet@gmail.com</a
+              >
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-linkedin"></i>
+              <a
+                href="https://www.linkedin.com/in/vladyslav-hushpet/"
+                target="_blank"
+                >Linkedin</a
+              >
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-telegram"></i>
+              <a href="https://t.me/hashpiyoun" target="_blank">@hashpiyoun</a>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-github"></i>
+              <a href="https://github.com/Miroboku" target="_blank"
+                >github.com/Miroboku</a
+              >
+            </div>
+          </div>
+
+          <div class="sidebar-section">
+            <a
+              href="Vladyslav_Hushpet_Junior_QA_GameDev_ATS_Final_v7.pdf"
+              download
+              class="btn primary download-btn"
+            >
+              <i class="fas fa-file-pdf"></i> Скачати CV (PDF)
+            </a>
+          </div>
+
+          <div class="sidebar-section">
+            <h2 class="sidebar-title">Навички</h2>
+            <div class="skill-tags">
+              <span class="tag">Manual Testing</span>
+              <span class="tag">SDLC / STLC</span>
+              <span class="tag">Bug Reporting</span>
+              <span class="tag">Test Documentation</span>
+              <span class="tag">HTML / CSS (Базова)</span>
+              <span class="tag">AI інструменти</span>
+            </div>
+          </div>
+
+          <div class="sidebar-section">
+            <h2 class="sidebar-title">Мови</h2>
+            <div class="language-items">
+              <div class="lang">
+                <span>Українська</span>
+                <span class="level">Рідна</span>
+              </div>
+              <div class="lang">
+                <span>Англійська</span>
+                <span class="level">B1</span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </aside>
+
+      <!-- Main Content -->
+      <div class="main-content-wrapper">
+        <div class="main-content">
+        <!-- About Me -->
+        <section id="about" class="cv-section reveal">
+          <h2 class="section-title">Про мене</h2>
+          <div class="about-text">
+            <p>
+              Я Junior QA Engineer із пристрастю до розробки ігор та великим
+              бажанням потрапити у круту команду, щоб працювати над цікавими
+              проєктами. Маю міцну базу в мануальному тестуванні, вмію працювати
+              з Jira, писати тестову документацію та використовувати
+              AI-інструменти.
+            </p>
+            <p>
+              У вільний час вивчаю Unreal Engine, 3D-моделювання у Blender,
+              створюю моди та працюю над локалізацією ігор.
+            </p>
+          </div>
+        </section>
+
+        <!-- Experience -->
+        <section id="experience" class="cv-section reveal">
+          <h2 class="section-title">Досвід в тестуванні</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-header">
+                <h3>QA Game Tester (Indie Beta Testing)</h3>
+                <span class="date">Грудень 2025 - Лютий 2026</span>
+              </div>
+              <p class="company">Various Indie Studios</p>
+              <ul class="cv-list">
+                <li>Участь у бета-тестуванні інді-ігор.</li>
+                <li>
+                  Проведення функціонального, геймплейного та UI/UX тестування.
+                </li>
+                <li>Написання структурованих баг-репортів.</li>
+              </ul>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-header">
+                <h3>QA Game Tester (Closed Playtest)</h3>
+                <span class="date">Вересень 2025</span>
+              </div>
+              <p class="company"><a href="https://store.steampowered.com/app/3937360/Ocean_Keeper_Coop_Drill_Multiplayer/" target="_blank" class="company-link">Ocean Keeper Co-op <i class="fas fa-external-link-alt" style="font-size: 0.8rem; margin-left: 4px; color: var(--text-dim);"></i></a></p>
+              <ul class="cv-list">
+                <li>Написання баг-репортів з кроками відтворення.</li>
+                <li>Опис очікуваних та фактичних результатів.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Projects / Portfolio -->
+        <section id="projects" class="cv-section reveal">
+          <h2 class="section-title">Проєкти & Моди</h2>
+          <div class="projects-grid">
+            <div class="project-card">
+              <div class="project-header">
+                <i class="fas fa-layer-group project-icon"></i>
+                <div class="project-links">
+                  <a
+                    href="https://miroboku.github.io/QA_flashcards/"
+                    target="_blank"
+                    aria-label="Project Link"
+                    ><i class="fas fa-external-link-alt"></i
+                  ></a>
+                </div>
+              </div>
+              <h3>QA Flash Cards</h3>
+              <p>
+                Інтерактивний додаток для вивчення та повторення теорії
+                тестування, SDLC/STLC, видів тестування та написання тестової
+                документації.
+              </p>
+              <div class="project-tags">
+                <span>QA Theory</span>
+                <span>Testing</span>
+                <span>Education</span>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-header">
+                <i class="fab fa-twitch project-icon"></i>
+                <div class="project-links">
+                  <a href="#" target="_blank" aria-label="Project Link"
+                    ><i class="fas fa-external-link-alt"></i
+                  ></a>
+                </div>
+              </div>
+              <h3>
+                Твіч Сіті
+                <span
+                  style="
+                    font-size: 0.8rem;
+                    color: var(--text-dim);
+                    font-weight: normal;
+                  "
+                  >(В розробці)</span
+                >
+              </h3>
+              <p>
+                Багатомовний (UA/EN) SaaS сервіс для стримерів на Twitch.
+                Преміальний UI/UX дизайн, інтеграція та налаштування віджетів
+                для трансляцій.
+              </p>
+              <div class="project-tags">
+                <span>SaaS</span>
+                <span>UI/UX</span>
+                <span>Localization</span>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-header">
+                <i class="fas fa-language project-icon"></i>
+                <div class="project-links">
+                  <a href="#" target="_blank" aria-label="Project Link"
+                    ><i class="fas fa-external-link-alt"></i
+                  ></a>
+                </div>
+              </div>
+              <h3>WhiteWhisper Localization</h3>
+              <p>
+                Повна українська офіційна локалізація гри. Використання Python
+                для автоматизації заміни текстів та тегів рушія.
+              </p>
+              <div class="project-tags">
+                <span>Localization</span>
+                <span>Python scripts</span>
+                <span>QA</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Tools -->
+        <section id="skills" class="cv-section reveal">
+          <h2 class="section-title">Інструменти</h2>
+          <div class="tools-grid">
+            <div class="tool-card">
+              <i class="devicon-jira-plain colored"></i>
+              <span>Jira</span>
+            </div>
+            <div class="tool-card">
+              <i class="fas fa-vial"></i>
+              <!-- TestRail doesn't have devicon, keeping generic for now or finding SVG -->
+              <span>TestRail</span>
+            </div>
+            <div class="tool-card">
+              <i class="devicon-postman-plain colored"></i>
+              <span>Postman</span>
+            </div>
+            <div class="tool-card">
+              <i class="devicon-unrealengine-original colored"></i>
+              <span>Unreal Engine</span>
+            </div>
+            <div class="tool-card">
+              <i class="devicon-blender-original colored"></i>
+              <span>Blender</span>
+            </div>
+            <div class="tool-card">
+              <i class="devicon-html5-plain colored"></i>
+              <span>HTML5</span>
+            </div>
+            <div class="tool-card">
+              <i class="devicon-css3-plain colored"></i>
+              <span>CSS3</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- Education -->
+        <section id="education" class="cv-section reveal">
+          <h2 class="section-title">Освіта та Сертифікати</h2>
+          <div class="education-list">
+            <div class="edu-item">
+              <div class="edu-header">
+                <img
+                  src="assets/images/hillel.png"
+                  alt="Hillel"
+                  class="edu-logo"
+                />
+                <div class="edu-meta">
+                  <h3>QA Manual with AI</h3>
+                  <p>Hillel IT School | 2025-2026</p>
+                </div>
+              </div>
+              <p class="edu-desc">
+                Основи ручного тестування з акцентом на використанні ШІ для
+                оптимізації процесів.
+              </p>
+              <a
+                href="https://certificate.ithillel.ua/view/60726581"
+                target="_blank"
+                class="cert-link"
+                >Сертифікат <i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+
+            <div class="edu-item">
+              <div class="edu-header">
+                <img
+                  src="assets/images/udemy.svg"
+                  alt="Udemy"
+                  class="edu-logo"
+                />
+                <div class="edu-meta">
+                  <h3>QA: Become a Game Tester</h3>
+                  <p>Udemy | Листопад 2025</p>
+                </div>
+              </div>
+              <a
+                href="https://www.udemy.com/certificate/UC-01254675-d504-4bba-bda0-66e27e542c3d/"
+                target="_blank"
+                class="cert-link"
+                >Сертифікат <i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+
+            <div class="edu-item">
+              <div class="edu-header">
+                <div class="edu-icon"><i class="fas fa-university"></i></div>
+                <div class="edu-meta">
+                  <h3>Магістр — Міжнародний менеджмент</h3>
+                  <p>КНТЕУ | 2022-2024</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2026 Владислав Гушпет. Всі права захищені.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
