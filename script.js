@@ -73,16 +73,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Copy Email functionality
-    const copyEmailBtn = document.querySelector('.copy-email');
-    if (copyEmailBtn) {
-        copyEmailBtn.addEventListener('click', (e) => {
-            e.preventDefault();
-            const email = copyEmailBtn.innerText;
-            navigator.clipboard.writeText(email);
-        });
-    }
-
     // Smooth scroll for anchors
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
