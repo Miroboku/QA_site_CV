@@ -73,6 +73,23 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Copy Email functionality with status message
+    const copyEmailBtn = document.querySelector('.copy-email');
+    const copyStatus = document.querySelector('.copy-status');
+    
+    if (copyEmailBtn && copyStatus) {
+        copyEmailBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            const email = copyEmailBtn.innerText;
+            navigator.clipboard.writeText(email).then(() => {
+                copyStatus.style.opacity = '1';
+                setTimeout(() => {
+                    copyStatus.style.opacity = '0';
+                }, 2000);
+            });
+        });
+    }
+
     // Smooth scroll for anchors
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
