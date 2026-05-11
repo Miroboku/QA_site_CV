@@ -79,16 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
         copyEmailBtn.addEventListener('click', (e) => {
             e.preventDefault();
             const email = copyEmailBtn.innerText;
-            navigator.clipboard.writeText(email).then(() => {
-                const originalText = copyEmailBtn.innerText;
-                copyEmailBtn.innerText = 'Скопійовано!';
-                copyEmailBtn.style.color = 'var(--primary-color)';
-                
-                setTimeout(() => {
-                    copyEmailBtn.innerText = originalText;
-                    copyEmailBtn.style.color = '';
-                }, 2000);
-            });
+            navigator.clipboard.writeText(email);
         });
     }
 
