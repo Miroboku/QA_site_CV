@@ -702,8 +702,22 @@ body {
 
     .menu-toggle {
         display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 21px;
+        cursor: pointer;
+        z-index: 1001;
         position: absolute;
         right: 1.5rem;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    #navbar .container {
+        justify-content: flex-start;
+        position: relative;
+        height: 60px;
     }
 
     .nav-links {
@@ -720,6 +734,7 @@ body {
         gap: 2rem;
         z-index: 1000;
         padding: 2rem;
+        margin: 0;
     }
 
     .nav-links.mobile-active {
