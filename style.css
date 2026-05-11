@@ -669,18 +669,44 @@ body {
 /* Responsive */
 @media (max-width: 1024px) {
     .cv-container {
-        grid-template-columns: 1fr;
-        padding-top: 100px;
+        flex-direction: column;
+        padding-top: 80px;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
     }
+
     .sidebar {
         position: relative;
         top: 0;
+        left: 0;
+        transform: none;
+        width: 100%;
+        height: auto;
+        margin-bottom: 3rem;
+        overflow-y: visible;
+        padding: 2rem;
+    }
+
+    .main-content-wrapper {
+        margin-left: 0;
+        width: 100%;
+        padding-top: 0;
+    }
+
+    .about-text p {
+        font-size: 1rem;
     }
 }
 
 @media (max-width: 768px) {
+    .container {
+        padding: 0 1.5rem;
+    }
+
     .menu-toggle {
         display: flex;
+        position: absolute;
+        right: 1.5rem;
     }
 
     .nav-links {
@@ -693,20 +719,19 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        transition: 0.5s ease;
+        transition: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
         gap: 2rem;
+        z-index: 1000;
+        padding: 2rem;
     }
 
     .nav-links.mobile-active {
         left: 0;
     }
 
-    .nav-links li {
-        margin: 0;
-    }
-
     .nav-links a {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        opacity: 1;
     }
 
     /* Burger Animation */
@@ -718,5 +743,43 @@ body {
     }
     .menu-toggle.is-active .bar:nth-child(3) {
         transform: translateY(-9px) rotate(-45deg);
+    }
+
+    .timeline-header {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .timeline-header .date {
+        font-size: 0.8rem;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .tools-grid {
+        grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+        gap: 1rem;
+    }
+
+    .edu-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-info h1 {
+        font-size: 1.8rem;
+    }
+    
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .sidebar {
+        padding: 1.5rem;
     }
 }
