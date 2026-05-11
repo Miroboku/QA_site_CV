@@ -216,6 +216,7 @@ body {
 
 .contact-item a:hover {
     color: var(--accent-color);
+    transform: translateX(5px);
 }
 
 .sidebar-section {
@@ -257,9 +258,7 @@ body {
 }
 
 .tag:hover {
-    border-color: var(--accent-color);
-    box-shadow: 0 0 10px rgba(var(--accent-color-rgb), 0.3);
-    transform: translateY(-2px);
+    /* Hover removed as requested */
 }
 
 .language-items {
@@ -485,9 +484,7 @@ body {
 }
 
 .tool-card:hover {
-    border-color: var(--accent-color);
-    transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(var(--accent-color-rgb), 0.15);
+    /* Hover removed as requested */
 }
 
 /* Education */
@@ -564,6 +561,8 @@ body {
 
 .cert-link:hover {
     color: var(--primary-color);
+    transform: translateY(-2px);
+    text-decoration: underline;
 }
 
 /* Buttons */
