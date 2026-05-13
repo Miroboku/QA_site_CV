@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Резюме - Владислав Гушпет</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.5;
+            color: #1a1a1a;
+            margin: 0;
+            padding: 40px;
+            background: #fff;
+        }
+
+        .header {
+            border-bottom: 2px solid #000;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 28px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .job-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #444;
+            margin-top: 5px;
+        }
+
+        .contacts {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 10px;
+            font-size: 13px;
+        }
+
+        .contacts span, .contacts a {
+            color: #1a1a1a;
+            text-decoration: none;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: uppercase;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 12px;
+            color: #000;
+        }
+
+        .experience-item {
+            margin-bottom: 18px;
+        }
+
+        .exp-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: 700;
+            font-size: 14px;
+        }
+
+        .exp-sub {
+            font-style: italic;
+            color: #555;
+            font-size: 13px;
+            margin-bottom: 5px;
+        }
+
+        ul {
+            margin: 5px 0 0 20px;
+            padding: 0;
+            font-size: 13.5px;
+        }
+
+        li {
+            margin-bottom: 4px;
+        }
+
+        .skills-grid {
+            font-size: 13.5px;
+        }
+
+        .skills-group {
+            margin-bottom: 8px;
+        }
+
+        .skills-group b {
+            font-weight: 700;
+        }
+
+        @media print {
+            body { padding: 0; }
+            @page { margin: 1.5cm; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Владислав Гушпет</h1>
+        <div class="job-title">Junior QA Engineer (GameDev)</div>
+        <div class="contacts">
+            <span>📍 Україна</span>
+            <span>📧 vladgushpet@gmail.com</span>
+            <span>🔗 <a href="https://www.linkedin.com/in/vladyslav-hushpet/">linkedin.com/in/vladyslav-hushpet/</a></span>
+            <span>💻 <a href="https://github.com/Miroboku">github.com/Miroboku</a></span>
+            <span>📱 @hashpiyoun</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Про мене</div>
+        <p style="font-size: 13.5px; margin: 0;">
+            Junior QA Engineer із пристрастю до розробки ігор та мануального тестування. Маю міцну базу в SDLC/STLC, вмію працювати з Jira та писати якісну тестову документацію. Активно використовую ШІ для оптимізації процесів тестування. Захоплююсь Unreal Engine, 3D-моделюванням та локалізацією ігор.
+        </p>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Досвід роботи</div>
+        
+        <div class="experience-item">
+            <div class="exp-header">
+                <span>QA Game Tester (Indie Beta Testing)</span>
+                <span>Грудень 2025 — Лютий 2026</span>
+            </div>
+            <div class="exp-sub">Various Indie Studios</div>
+            <ul>
+                <li>Участь у бета-тестуванні інді-ігор на різних стадіях розробки.</li>
+                <li>Проведення функціонального, геймплейного та UI/UX тестування.</li>
+                <li>Написання структурованих баг-репортів та пропозицій щодо покращення ігрового досвіду.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="exp-header">
+                <span>QA Game Tester (Closed Playtest)</span>
+                <span>Вересень 2025</span>
+            </div>
+            <div class="exp-sub">Ocean Keeper Co-op (Steam)</div>
+            <ul>
+                <li>Виконання дослідницького тестування (Exploratory Testing) для виявлення критичних дефектів.</li>
+                <li>Проведення ретесту (Confirmation Testing) та регресійного тестування після фіксів.</li>
+                <li>Надання розгорнутого фідбеку щодо балансу та механік для покращення Player Experience.</li>
+                <li>Створення детальних звітів з кроками відтворення та медіа-доказами.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Проєкти та Модинг</div>
+        <div class="experience-item">
+            <div class="exp-header">
+                <span>QA Flash Cards / Твіч Сіті / WhiteWhisper Localization</span>
+            </div>
+            <ul>
+                <li>Розробка інтерактивного додатку для вивчення теорії QA (в розробці).</li>
+                <li>Офіційна українська локалізація гри: автоматизація процесів за допомогою Python.</li>
+                <li>Проєктування UI/UX для SaaS сервісу стрімінгової платформи.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Технічні навички</div>
+        <div class="skills-grid">
+            <div class="skills-group"><b>Тестування:</b> Manual Testing, SDLC, STLC, Bug Life Cycle, Test Documentation, Agile/Scrum.</div>
+            <div class="skills-group"><b>Інструменти:</b> Jira, TestRail, Postman, Unreal Engine 5, Blender, Git.</div>
+            <div class="skills-group"><b>Технології:</b> HTML5, CSS3, Python (basics), AI Prompt Engineering.</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Освіта та сертифікати</div>
+        <div class="experience-item">
+            <div class="exp-header"><span>QA Manual with AI</span><span>2025-2026</span></div>
+            <div class="exp-sub">Hillel IT School</div>
+        </div>
+        <div class="experience-item">
+            <div class="exp-header"><span>QA: Become a Game Tester</span><span>2025</span></div>
+            <div class="exp-sub">Udemy</div>
+        </div>
+        <div class="experience-item">
+            <div class="exp-header"><span>Магістр — Міжнародний менеджмент</span><span>2022-2024</span></div>
+            <div class="exp-sub">КНТЕУ</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Мови</div>
+        <div class="skills-grid">
+            <span><b>Українська:</b> Вільно | <b>Англійська:</b> B1 (Intermediate)</span>
+        </div>
+    </div>
+
+</body>
+</html>

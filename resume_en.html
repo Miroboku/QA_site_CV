@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume - Vladyslav Hushpet</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.5;
+            color: #1a1a1a;
+            margin: 0;
+            padding: 40px;
+            background: #fff;
+        }
+
+        .header {
+            border-bottom: 2px solid #000;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 28px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .job-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #444;
+            margin-top: 5px;
+        }
+
+        .contacts {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 10px;
+            font-size: 13px;
+        }
+
+        .contacts span, .contacts a {
+            color: #1a1a1a;
+            text-decoration: none;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: uppercase;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 12px;
+            color: #000;
+        }
+
+        .experience-item {
+            margin-bottom: 18px;
+        }
+
+        .exp-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: 700;
+            font-size: 14px;
+        }
+
+        .exp-sub {
+            font-style: italic;
+            color: #555;
+            font-size: 13px;
+            margin-bottom: 5px;
+        }
+
+        ul {
+            margin: 5px 0 0 20px;
+            padding: 0;
+            font-size: 13.5px;
+        }
+
+        li {
+            margin-bottom: 4px;
+        }
+
+        .skills-grid {
+            font-size: 13.5px;
+        }
+
+        .skills-group {
+            margin-bottom: 8px;
+        }
+
+        .skills-group b {
+            font-weight: 700;
+        }
+
+        @media print {
+            body { padding: 0; }
+            @page { margin: 1.5cm; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Vladyslav Hushpet</h1>
+        <div class="job-title">Junior QA Engineer (GameDev)</div>
+        <div class="contacts">
+            <span>📍 Ukraine</span>
+            <span>📧 vladgushpet@gmail.com</span>
+            <span>🔗 <a href="https://www.linkedin.com/in/vladyslav-hushpet/">linkedin.com/in/vladyslav-hushpet/</a></span>
+            <span>💻 <a href="https://github.com/Miroboku">github.com/Miroboku</a></span>
+            <span>📱 @hashpiyoun</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Summary</div>
+        <p style="font-size: 13.5px; margin: 0;">
+            Junior QA Engineer with a passion for game development and manual testing. Strong foundation in SDLC/STLC, proficient in Jira and test documentation creation. Actively using AI tools to optimize testing processes. Enthusiastic about Unreal Engine, 3D modeling, and game localization.
+        </p>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Experience</div>
+        
+        <div class="experience-item">
+            <div class="exp-header">
+                <span>QA Game Tester (Indie Beta Testing)</span>
+                <span>Dec 2025 — Feb 2026</span>
+            </div>
+            <div class="exp-sub">Various Indie Studios</div>
+            <ul>
+                <li>Participated in beta testing of indie games at various development stages.</li>
+                <li>Performed functional, gameplay, and UI/UX testing.</li>
+                <li>Wrote structured bug reports and provided suggestions for improving player experience.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="exp-header">
+                <span>QA Game Tester (Closed Playtest)</span>
+                <span>Sep 2025</span>
+            </div>
+            <div class="exp-sub">Ocean Keeper Co-op (Steam)</div>
+            <ul>
+                <li>Executed Exploratory Testing to identify critical defects.</li>
+                <li>Performed Confirmation Testing and Regression Testing after bug fixes.</li>
+                <li>Provided detailed feedback on balance and mechanics to enhance Player Experience.</li>
+                <li>Created detailed reports with reproduction steps and media evidence.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Projects & Modding</div>
+        <div class="experience-item">
+            <div class="exp-header">
+                <span>QA Flash Cards / Twitch City / WhiteWhisper Localization</span>
+            </div>
+            <ul>
+                <li>Developing an interactive app for learning QA theory (in progress).</li>
+                <li>Official Ukrainian game localization: process automation using Python scripts.</li>
+                <li>UI/UX design for a streaming platform SaaS service.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Technical Skills</div>
+        <div class="skills-grid">
+            <div class="skills-group"><b>Testing:</b> Manual Testing, SDLC, STLC, Bug Life Cycle, Test Documentation, Agile/Scrum.</div>
+            <div class="skills-group"><b>Tools:</b> Jira, TestRail, Postman, Unreal Engine 5, Blender, Git.</div>
+            <div class="skills-group"><b>Technologies:</b> HTML5, CSS3, Python (basics), AI Prompt Engineering.</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Education & Certifications</div>
+        <div class="experience-item">
+            <div class="exp-header"><span>QA Manual with AI</span><span>2025-2026</span></div>
+            <div class="exp-sub">Hillel IT School</div>
+        </div>
+        <div class="experience-item">
+            <div class="exp-header"><span>QA: Become a Game Tester</span><span>2025</span></div>
+            <div class="exp-sub">Udemy</div>
+        </div>
+        <div class="experience-item">
+            <div class="exp-header"><span>Master's Degree — International Management</span><span>2022-2024</span></div>
+            <div class="exp-sub">KNUTE</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Languages</div>
+        <div class="skills-grid">
+            <span><b>Ukrainian:</b> Native | <b>English:</b> B1 (Intermediate)</span>
+        </div>
+    </div>
+
+</body>
+</html>
