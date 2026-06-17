@@ -100,7 +100,7 @@ async function generatePDF(inputFile, outputFile, lang) {
 }
 
 (async () => {
-    await generatePDF('index.html', 'Vladyslav_Hushpet_CV_UA.pdf', 'uk');
-    await generatePDF('en.html', 'Vladyslav_Hushpet_CV_EN.pdf', 'en');
+    await generatePDF('index.html', 'Vladyslav_Hushpet_GameDev_QA_Resume_UA.pdf', 'uk');
+    await generatePDF('en.html', 'Vladyslav_Hushpet_GameDev_QA_Resume_EN.pdf', 'en');
     console.log('Done! Both PDFs created.');
 })();
